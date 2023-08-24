@@ -1,0 +1,40 @@
+body{
+    width: 900px;
+    margin: auto;
+    margin-top: 10px;
+    background: rgb(221, 229, 230);
+}
+
+header{
+    border: 2px solid brown;
+    border-radius: 5px;
+    padding: 5px;
+    background: -moz-linear-gradient(top, #FFFFFF, #006699);
+    
+}
+
+nav{
+    border: 2px solid brown;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: ;
+    background: -moz-linear-gradient(top, #FFFFFF, #3c3d3d);
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    border: 2px solid brown;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: -moz-linear-gradient(top, #FFFFFF, chocolate);
+}
+
+#menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+}

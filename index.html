@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Disclaimer circuitos</title>
+        <link rel="stylesheet" type="text/css" href="adk.css">
+        <script>
+            function mostraralerta(){
+            alert('hizo clic!');
+            }
+            function hacerclic(){
+            document.getElementsByTagName('p')[0].onclick=mostraralerta;
+            }
+            window.onload=hacerclic;
+            </script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Cabecera de pagina</h1>
+            <p>Hacer Clic</p>
+        </header>
+        <nav id="menu">
+            <ul>
+                <li>Principal</li>
+                <li>Principal</li>
+                <li>Principal</li>
+                <li>Principal</li>
+            </ul>
+        </nav>
+        <footer>
+            <p>Pie de pagina</p>
+        </footer>
+    </body>
+</html>
